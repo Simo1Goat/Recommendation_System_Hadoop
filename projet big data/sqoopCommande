@@ -1,0 +1,21 @@
+
+
+
+//Content
+sqoop export --connect jdbc:mysql://127.0.0.1:3306/recomsys --username root -P --table content --export-dir=/RcomSys/ContentOut/part-r-00000 --input-fields-terminated-by "\t"
+
+
+//User
+sqoop export --connect jdbc:mysql://127.0.0.1:3306/recomsys --username root -P --table users --export-dir=/RcomSys/User/u.user --input-fields-terminated-by "|"
+
+
+//UserItemRating
+sqoop export --connect jdbc:mysql://127.0.0.1:3306/recomsys --username root -P --table uir --export-dir=/RcomSys/UserItemRating/part-r-00000 --input-fields-terminated-by "\t"
+
+
+//genre
+sqoop export --connect jdbc:mysql://127.0.0.1:3306/recomsys --username root -P --table genre --export-dir=/RcomSys/Genre/u.genre/u.genre --input-fields-terminated-by "|"
+
+
+//items 
+sqoop export --connect jdbc:mysql://127.0.0.1:3306/recomsys --username root -P --table items --export-dir=/RcomSys/u.item.txt --input-fields-terminated-by "|"
