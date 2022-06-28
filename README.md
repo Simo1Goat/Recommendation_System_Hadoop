@@ -42,3 +42,6 @@ regardé.
   ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Apache_Sqoop_logo.svg/879px-Apache_Sqoop_logo.svg.png "sqoop")
   4. MySQL:
   ![alt text](https://www.duchess-france.org/wp-content/uploads/2015/07/mysql-logo-png-300x225.png "mysql")
+  
+### pour plus de détails consultez le rapport:
+[Cliquez ici](https://github.com/Simo1Goat/Recommendation_System_Hadoop/blob/5cdeb24f3a988d2990691a59224ea75f43dae3c1/projet%20big%20data/Films%20Recommandation.pdf)
